@@ -15,11 +15,15 @@
 
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Página Inicial</a>
+                    <a class="nav-link text-white" href="painel.php">Página Inicial</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link text-white" href="cadastro_posts.php">Cadastro de posts</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="actions/sair.php">Sair</a>
                 </li>
             </ul>
        </nav>

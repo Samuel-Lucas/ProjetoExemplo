@@ -13,10 +13,4 @@
 
         header("Location: ../../index.php");
     }
-
-
-
-    
-
-
 ?>

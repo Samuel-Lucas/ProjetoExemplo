@@ -9,14 +9,14 @@
             <div class="row">
                 <div class="col-8 mx-auto pt-4 container-login">
                 <h3 class="mb-4">Cadastro de Posts</h3>
-                    <form action="" method="post">
+                    <form action="actions/cadastrar_posts.php" method="post">
                         <div class="form-group">
                             <label class="label-form" for="tiulo">Título:</label>  
                             <input class="form-control" type="text" name="titulo" id="titulo">
                         </div>
 
                         <div class="form-group">
-                            <label class="label-form" for="email">Conteúdo:</label>  
+                            <label class="label-form" for="conteudo">Conteúdo:</label>  
                             <textarea class="form-control" type="text" name="conteudo" id="conteudo"></textarea>
                         </div>
                         
