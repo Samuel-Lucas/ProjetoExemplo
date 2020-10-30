@@ -4,7 +4,7 @@
 
     require_once "db_connect.php";
 
-    if (isset($_POST['logar'])) {
+    if (isset($_POST['email']) && isset($_POST['senha'])) {
 
         $email = $_POST['email'];
         $senha = $_POST['senha'];
@@ -22,6 +22,9 @@
                     header("Location: ../painel.php");
                 }
             }
+        } else {
+            
+            header("Location: ../../index.php");
         }
-    }
+    } 
 ?>
